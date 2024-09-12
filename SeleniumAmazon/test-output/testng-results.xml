@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[***********Element has been identified by locator: xpath ***********]]>
+    </line>
+    <line>
+      <![CDATA[***********Element has been identified by locator: //*[@id='nav-link-accountList'] ***********]]>
+    </line>
+    <line>
+      <![CDATA[User is on Amazon Home Page]]>
+    </line>
+    <line>
+      <![CDATA[***********Element has been identified by locator: xpath ***********]]>
+    </line>
+    <line>
+      <![CDATA[***********Element has been identified by locator: //*[@id='nav-link-accountList'] ***********]]>
+    </line>
+    <line>
+      <![CDATA[***********Element has been identified by locator: //*[@id='nav-link-accountList'] ***********]]>
+    </line>
+    <line>
+      <![CDATA[***********Element has been identified by locator: xpath ***********]]>
+    </line>
+    <line>
+      <![CDATA[***********Element has been identified by locator: //*[@class='nav-action-signin-button' and @data-nav-ref='nav_signin'] ***********]]>
+    </line>
+    <line>
+      <![CDATA[***********Element has been identified by locator: //*[@class='nav-action-signin-button' and @data-nav-ref='nav_signin'] ***********]]>
+    </line>
+    <line>
+      <![CDATA[***********Element has been identified by locator: xpath ***********]]>
+    </line>
+    <line>
+      <![CDATA[***********Element has been identified by locator: //*[@id='ap_email'] ***********]]>
+    </line>
+    <line>
+      <![CDATA[***********Element has been identified by locator: //*[@id='ap_email'] ***********]]>
+    </line>
+    <line>
+      <![CDATA[***********Element has been identified by locator: xpath ***********]]>
+    </line>
+    <line>
+      <![CDATA[***********Element has been identified by locator: //*[@id='continue' and @type='submit'] ***********]]>
+    </line>
+    <line>
+      <![CDATA[***********Element has been identified by locator: //*[@id='continue' and @type='submit'] ***********]]>
+    </line>
+    <line>
+      <![CDATA[***********Element has been identified by locator: xpath ***********]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-09-12T11:21:16 IST" name="Default suite" finished-at="2024-09-12T11:22:11 IST" duration-ms="54580">
+    <groups>
+    </groups>
+    <test started-at="2024-09-12T11:21:16 IST" name="Default test" finished-at="2024-09-12T11:22:11 IST" duration-ms="54580">
+      <class name="Selenium.testcases.testCases">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Selenium.testcases.testCases@5e2c3d18]" started-at="2024-09-12T11:21:16 IST" name="initialize" finished-at="2024-09-12T11:21:37 IST" duration-ms="20490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="TC_01_Verify_AmazonApplicationIsLaunched()[pri:1, instance:Selenium.testcases.testCases@5e2c3d18]" started-at="2024-09-12T11:21:37 IST" name="TC_01_Verify_AmazonApplicationIsLaunched" finished-at="2024-09-12T11:21:59 IST" duration-ms="21680" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[***********Element has been identified by locator: xpath ***********]]>
+            </line>
+            <line>
+              <![CDATA[***********Element has been identified by locator: //*[@id='nav-link-accountList'] ***********]]>
+            </line>
+            <line>
+              <![CDATA[User is on Amazon Home Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_Verify_AmazonApplicationIsLaunched -->
+        <test-method signature="TC_02_Verify_UserShouldContinueOnSignUpPage()[pri:2, instance:Selenium.testcases.testCases@5e2c3d18]" started-at="2024-09-12T11:21:59 IST" name="TC_02_Verify_UserShouldContinueOnSignUpPage" finished-at="2024-09-12T11:22:11 IST" duration-ms="11794" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='intention-submit-button']"}
+  (Session info: chrome=128.0.6613.137)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-K9595GNR', ip: '172.29.40.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.137, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\VGAYAK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54666}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e00da1aebf1d0687b8a328cd0f124af
+*** Element info: {Using=xpath, value=//*[@id='intention-submit-button']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='intention-submit-button']"}
+  (Session info: chrome=128.0.6613.137)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-K9595GNR', ip: '172.29.40.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.137, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\VGAYAK~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54666}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e00da1aebf1d0687b8a328cd0f124af
+*** Element info: {Using=xpath, value=//*[@id='intention-submit-button']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Selenium.drivers.seleniumDriver.findElement(seleniumDriver.java:83)
+at Selenium.drivers.seleniumDriver.Click(seleniumDriver.java:124)
+at Selenium.pages.login.login.click_ProceedToCreateAccountOnLoginPage(login.java:41)
+at Selenium.pages.login.login.ClickSignInLinkAndContinueOnSignUpPage(login.java:53)
+at Selenium.testcases.testCases.TC_02_Verify_UserShouldContinueOnSignUpPage(testCases.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[***********Element has been identified by locator: xpath ***********]]>
+            </line>
+            <line>
+              <![CDATA[***********Element has been identified by locator: //*[@id='nav-link-accountList'] ***********]]>
+            </line>
+            <line>
+              <![CDATA[***********Element has been identified by locator: //*[@id='nav-link-accountList'] ***********]]>
+            </line>
+            <line>
+              <![CDATA[***********Element has been identified by locator: xpath ***********]]>
+            </line>
+            <line>
+              <![CDATA[***********Element has been identified by locator: //*[@class='nav-action-signin-button' and @data-nav-ref='nav_signin'] ***********]]>
+            </line>
+            <line>
+              <![CDATA[***********Element has been identified by locator: //*[@class='nav-action-signin-button' and @data-nav-ref='nav_signin'] ***********]]>
+            </line>
+            <line>
+              <![CDATA[***********Element has been identified by locator: xpath ***********]]>
+            </line>
+            <line>
+              <![CDATA[***********Element has been identified by locator: //*[@id='ap_email'] ***********]]>
+            </line>
+            <line>
+              <![CDATA[***********Element has been identified by locator: //*[@id='ap_email'] ***********]]>
+            </line>
+            <line>
+              <![CDATA[***********Element has been identified by locator: xpath ***********]]>
+            </line>
+            <line>
+              <![CDATA[***********Element has been identified by locator: //*[@id='continue' and @type='submit'] ***********]]>
+            </line>
+            <line>
+              <![CDATA[***********Element has been identified by locator: //*[@id='continue' and @type='submit'] ***********]]>
+            </line>
+            <line>
+              <![CDATA[***********Element has been identified by locator: xpath ***********]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_02_Verify_UserShouldContinueOnSignUpPage -->
+        <test-method signature="TC_03_Verify_UserShouldContinueOnOTPPage()[pri:3, instance:Selenium.testcases.testCases@5e2c3d18]" started-at="2024-09-12T11:22:11 IST" name="TC_03_Verify_UserShouldContinueOnOTPPage" finished-at="2024-09-12T11:22:11 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Type mismatch: cannot convert from void to String
+Type mismatch: cannot convert from void to String
+Type mismatch: cannot convert from void to String
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Type mismatch: cannot convert from void to String
+Type mismatch: cannot convert from void to String
+Type mismatch: cannot convert from void to String
+
+at Selenium.testcases.testCases.TC_03_Verify_UserShouldContinueOnOTPPage(testCases.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Verify_UserShouldContinueOnOTPPage -->
+      </class> <!-- Selenium.testcases.testCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
